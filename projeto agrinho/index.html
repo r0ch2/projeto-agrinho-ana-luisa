@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Impactos do Desmatamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Impactos do Desmatamento no Meio Ambiente</h1>
+        <p>Projeto Agrinho - Conscientização Ambiental</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#causas">Causas</a></li>
+            <li><a href="#impactos">Impactos</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introducao" class="secao-destaque">
+            <h2>O Que é Desmatamento?</h2>
+            <div class="conteudo">
+                <img src="assets/images/floresta.jpg" alt="Floresta preservada">
+                <p>O desmatamento é a remoção completa da vegetação natural de uma área. O Brasil perdeu mais de 500 mil km² de floresta amazônica nos últimos 30 anos, equivalente a 8,4% de sua área total.</p>
+            </div>
+        </section>
+
+        <section id="causas">
+            <h2>Principais Causas do Desmatamento</h2>
+            <div class="grafico-container">
+                <canvas id="graficoCausas"></canvas>
+            </div>
+            <ul class="lista-impactos">
+                <li>Expansão agrícola</li>
+                <li>Pecuária extensiva</li>
+                <li>Exploração madeireira</li>
+                <li>Urbanização</li>
+                <li>Mineração</li>
+            </ul>
+        </section>
+
+        <section id="impactos" class="secao-destaque">
+            <h2>Consequências do Desmatamento</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Meio Ambiente</h3>
+                    <ul>
+                        <li>Perda de biodiversidade</li>
+                        <li>Alterações no ciclo hidrológico</li>
+                        <li>Aumento do efeito estufa</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Qualidade de Vida</h3>
+                    <ul>
+                        <li>Piora da qualidade do ar</li>
+                        <li>Aumento de doenças respiratórias</li>
+                        <li>Redução de recursos hídricos</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Economia</h3>
+                    <ul>
+                        <li>Perda de recursos naturais</li>
+                        <li>Impacto no turismo</li>
+                        <li>Prejuízos à agricultura</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="solucoes">
+            <h2>Como Podemos Combater?</h2>
+            <div class="conteudo">
+                <img src="assets/images/reflorestamento.jpg" alt="Reflorestamento">
+                <div>
+                    <h3>Ações Necessárias</h3>
+                    <ol>
+                        <li>Fiscalização ambiental eficiente</li>
+                        <li>Incentivo à agricultura sustentável</li>
+                        <li>Consumo consciente de produtos</li>
+                        <li>Programas de reflorestamento</li>
+                        <li>Educação ambiental nas escolas</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido para o Agrinho 2023</p>
+        <p>© Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
